@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,  initial-scale=1.0"> 
+        <title></title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+         <nav aria-label="main navigation">
+           <h2 class="logo">MCOMAT</h2>
+           <ul class="nav-links">
+            <li class="nav-links-menu"><a href="#">Home</a></li>
+            <li class="nav-links-menu" ><a href="#">About</a></li>
+            <li class="nav-links-menu"><a href="#">Services</a></li>
+            <li class="nav-links-menu"><a href="#">Contact</a></li>
+            <li><a class="hedabutton" href="#" role="button">Login</a></li>
+           </ul>
+           <button class="menu-button" aria-label="Open menu" aria-expanded="false">
+           <img src="menu.svg" alt="toggle button">
+           </button>
+
+         </nav>
+
+         <header>
+             <section class="header-container">
+                <h2>Excell with MCOMAT</h2>
+                <p class="line"></p>
+                <h1>A WONDERFUL COMMUNITY</h1>
+                <a href="#" class="hedabutton" role="button">Contact Us</a>
+             </section>
+
+         </header>
+         <script>
+          
+          menuButton.addEventListener('click', () => {
+          const isOpen = navLinks.classList.toggle('mobile-menu');
+          menuButton.setAttribute('aria-expanded', isOpen);
+           });
+         </script>
+         
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </main>
+
+      <script>
+        const menuButton=document.querySelector('.menu-button');
+        const navLinks=document.querySelector('.nav-links');
+        
+       menuButton.addEventListener('click',()=>{navLinks.classList.toggle('mobile-menu')});
+    </script>
+
+    </body>
+</html> 
