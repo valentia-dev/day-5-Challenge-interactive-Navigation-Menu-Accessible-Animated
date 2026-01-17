@@ -116,6 +116,9 @@ header{
     .menu-button{
         display: block;
     }
+header{
+    background-size:contain;
+}
     nav{
       padding:0;
     }
@@ -124,6 +127,7 @@ header{
     top: 30px;
     left: 30px;
     padding-left: 20px;
+	 color: #fc036b;
    }
    .nav-links{
     width: 100%;
@@ -144,3 +148,4 @@ header{
     font-size: 20px;
    }
 }
+
