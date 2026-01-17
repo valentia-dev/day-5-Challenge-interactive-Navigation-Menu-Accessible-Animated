@@ -42,7 +42,7 @@ nav ul{
     padding: 8px 10px; 
 }
 .logo{
-    text-shadow: 2px 2px gray;
+    text-shadow:0 2px 2px gray;
 }
 
 header{
@@ -147,5 +147,6 @@ header{
     font-size: 20px;
    }
 }
+
 
 
